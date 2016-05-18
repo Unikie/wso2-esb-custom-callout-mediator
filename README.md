@@ -10,10 +10,18 @@ This Custom Callout Mediator's all features are the same as in the original medi
 
 ## Usage
 
-### 1. Install the mediator to the ESB
+### 1. Get the WSO2 ESB Vfs Mediator jar
+
+You have two options:
+
+a) Add as a Maven/Gradle/Ivy dependency to your project. Get the dependency snippet from [here](https://bintray.com/mystes/maven/wso2-esb-custom-callout-mediator/view).
+
+b) Download it manually from [here](https://github.com/Mystes/wso2-esb-custom-callout-mediator/releases/tag/v1.0).
+
+### 2. Install the mediator to the ESB
 Copy the `CustomCalloutMediator-x.y.jar` to `$WSO2_ESB_HOME/repository/components/dropins/`.
 
-### 2. Use it in your proxies/sequences
+### 3. Use it in your proxies/sequences
 Mediator can be used as original one except the element name is customCallout instead of callout.
 ```xml
 <customCallout serviceURL="string" | endpointKey="string" [action="string"] [initAxis2ClientOptions="boolean"]>

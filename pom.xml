@@ -49,17 +49,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<distributionManagement>
-		<repository>
-			<id>MystesMavenRepo</id>
-			<url>https://nexus.mystes.fi:8081/nexus/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>MystesMavenRepo</id>
-			<url>https://nexus.mystes.fi:8081/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
 	<repositories>
 		<repository>
 			<releases>
@@ -126,4 +115,11 @@
 			<version>1.10.19</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>bintray-mystes-maven</id>
+			<name>mystes-maven</name>
+			<url>https://api.bintray.com/maven/mystes/maven/wso2-esb-custom-callout-mediator/;publish=1</url>
+		</repository>
+	</distributionManagement>
 </project>
