@@ -10,7 +10,7 @@ This Custom Callout Mediator's all features are the same as in the original medi
 
 ## Usage
 
-### 1. Get the WSO2 ESB Vfs Mediator jar
+### 1. Get the WSO2 ESB Custom Callout Mediator jar
 
 You have two options:
 
@@ -48,7 +48,7 @@ Mediator can be used as original one except the element name is customCallout in
 
 * Oracle Java 6 & 7
 * WSO2 ESB
-    * Vfs mediator has been tested with WSO2 ESB versions 4.5.1 & 4.8.1
+    * Custom Callout Mediator has been tested with WSO2 ESB versions 4.5.1 & 4.8.1
 
 #### Development
 
